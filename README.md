@@ -20,3 +20,11 @@ We had to derive insights from the data and present it into PPT format
 
 ### Project Rubric
 Rubric Link for this project: https://review.udacity.com/#!/rubrics/975/view
+
+
+## Project III - Music SQL Database
+We had to analyze the Chinook Database , Chinook Database holds information about a music store from which we have to write query and derive insights.
+We had to derive insights from the data and present it into PPT format 
+
+### Project Rubric
+Rubric Link for this project: https://review.udacity.com/#!/rubrics/1061/view
