@@ -1,0 +1,54 @@
+1) 
+SELECT g.Name Genre, COUNT(g.Name) NumTracks
+FROM InvoiceLine il
+JOIN Track t
+ON il.TrackId = t.TrackId
+JOIN Genre g
+ON t.GenreId = g.GenreId
+GROUP BY Genre
+ORDER BY NumTracks DESC;
+
+2)
+SELECT i.BillingCountry Country, COUNT(g.Name) NumTracks
+FROM Invoice i
+JOIN InvoiceLine il
+ON i.InvoiceId = il.InvoiceId
+JOIN Track t
+ON il.TrackId = t.TrackId
+JOIN Genre g
+ON t.GenreId = g.GenreId
+WHERE g.Name = 'Rock'
+GROUP BY Country
+ORDER BY NumTracks DESC
+
+3)
+SELECT ar.Name Artist, a.Title AlbumTitle, SUM(il.Quantity*il.UnitPrice) Sales
+FROM Artist ar
+JOIN Album a
+ON ar.ArtistID = a.ArtistId
+JOIN Track t
+ON a.AlbumiD = t.AlbumId
+JOIN InvoiceLine il
+ON t.TrackId = il.TrackId
+JOIN Invoice i
+ON il.InvoiceId = i.InvoiceId
+WHERE i.InvoiceDate BETWEEN '2010-01-01' AND '2012-01-01'
+GROUP BY AlbumTitle
+ORDER BY Sales DESC
+LIMIT 5
+
+4)
+SELECT mt.Name MediaTypeName, SUM(il.Quantity*il.UnitPrice) Sales
+FROM MediaType mt
+JOIN Track t
+ON mt.MediaTypeId = t.MediaTypeId
+JOIN InvoiceLine il
+ON t.TrackId = il.TrackId
+JOIN Invoice i
+ON il.InvoiceId = i.InvoiceId
+WHERE i.InvoiceDate BETWEEN '2010-01-01' AND '2013-01-01'
+GROUP BY MediaTypeName
+ORDER BY Sales DESC
+
+
+
