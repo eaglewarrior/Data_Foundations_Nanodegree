@@ -28,3 +28,11 @@ We had to derive insights from the data and present it into PPT format
 
 ### Project Rubric
 Rubric Link for this project: https://review.udacity.com/#!/rubrics/1061/view
+
+
+
+## Project IV - Build Data Dashboards in Tableau
+ I created visualizations to reveal insights from a data set. I createD data visualizations that tell a story or highlight patterns in the data set. I worked should be a reflection of the theory and practice of data visualization, such as visual encodings, design principles, and effective communication.
+
+### Project Rubric
+Rubric Link for this project: https://review.udacity.com/#!/rubrics/1060/view
