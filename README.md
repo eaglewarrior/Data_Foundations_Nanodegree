@@ -1,5 +1,5 @@
 # Data_Foundations_Nanodegree
-This repository contains all my projects reviewed by mentors during my Nanodegree
+This repository contains all my projects reviewed by mentors during my Nanodegree and also find my blog article https://allaboutbeingtecky.wordpress.com/2018/11/07/my-experience-in-data-foundations-nanodegree-udacity-bertelsmann/
 
 ## Project I - Interpret a Data Visualization
 We had to choose any dashboard from following options
