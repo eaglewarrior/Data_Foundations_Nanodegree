@@ -1,4 +1,7 @@
 # Data_Foundations_Nanodegree
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
+
 This repository contains all my projects reviewed by mentors during my Nanodegree and also find my blog article https://allaboutbeingtecky.wordpress.com/2018/11/07/my-experience-in-data-foundations-nanodegree-udacity-bertelsmann/
 
 ## Project I - Interpret a Data Visualization
